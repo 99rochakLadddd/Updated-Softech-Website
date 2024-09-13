@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <style>
+    body {
+  background: white
+}
+h1 {
+  color: #fff;
+  padding: 10px 0;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border: none;
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  }
+  a {
+    color: initial;
+    &:hover {
+      text-decoration: initial;
+    }
+  }
+  .text-muted i {
+    margin: 0 10px;
+  }
+  .card-body{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #172934bb;
+  }
+}
+  .card-position-relative:hover .card-title,
+  .card-position-relative:hover .card-body {
+    text-decoration: underline;
+    background: #172934;
+    transition: 0.6s;
+    text-decoration: underline;
+  }
+
+  .modal-header-updated, .modal-footer {
+    border-bottom: 0px !important;
+    border-top: 0px;
+  }
+
+  .services-provided-div {
+    border-top: 6px solid #0B6656;
+    border-bottom: 1px solid #CAE0E7;
+    border-right: 1px solid #CAE0E7 ;
+    border-left: 1px solid #CAE0E7;
+    border-radius:5px;
+  }
+
+  .mobile-app-dev-text {
+    width: fit-content;
+    background-color: #f5f8f9;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  .cvs-is-a-text {
+    font-size: 14px;
+  }
+
+  .centered-image {
+    height: auto;
+    align-items: center;
+  }
+
+</style>
+        <title>Softech Foundation</title>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-dark">Mobile Development</h1>
+            </div>
+            <div class="container">
+                <div class="row g-2">
+                    <div class="col-lg-4">
+                        <div class="card position-relative card-position-relative">
+                            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <a href="#">
+                                <img class="card-img-top"
+                                    src="images/meroaahar.png"
+                                    alt="Card image cap">
+                                <div class="card-body position-absolute">
+                                    <h5 class="card-title text-white">Mero Aahar</h5>
+                                    <p class="card-text badge bg-light text-dark">
+                                      Mobile App Development
+                                    </p>
+                                </div>
+                            </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card position-relative card-position-relative">
+                            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                            <a href="#">
+                                <img class="card-img-top"
+                                    src="images/onlineshop.png"
+                                    alt="Card image cap">
+                                <div class="card-body position-absolute">
+                                    <h5 class="card-title text-white">Online Shop Nepal</h5>
+                                    <p class="card-text badge bg-light text-dark">
+                                      Mobile App Development
+                                    </p>
+                                </div>
+                            </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card position-relative card-position-relative">
+                            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <a href="#">
+                                <img class="card-img-top"
+                                    src="images/ghar beti.png"
+                                    alt="Card image cap">
+                                <div class="card-body position-absolute">
+                                    <h5 class="card-title text-white">Ghar Beti</h5>
+                                    <p class="card-text badge bg-light text-dark">Mobile App Development</p>
+                                </div>
+                            </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card position-relative card-position-relative">
+                            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            <a href="#">
+                                <img class="card-img-top"
+                                    src="images/himalayan.png"
+                                    alt="Card image cap">
+                                <div class="card-body position-absolute">
+                                    <h5 class="card-title text-white">Himalayan Hills Foods</h5>
+                                    <p class="card-text badge bg-light text-dark">Mobile App Development</p>
+                                </div>
+                            </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card position-relative card-position-relative">
+                            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            <a href="#">
+                                <img class="card-img-top"
+                                    src="images/pos system.png"
+                                    alt="Card image cap">
+                                <div class="card-body position-absolute">
+                                    <h5 class="card-title text-white">POS System</h5>
+                                    <p class="card-text badge bg-light text-dark">Mobile App Development</p>
+                                </div>
+                            </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card position-relative card-position-relative">
+                            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                            <a href="#">
+                                <img class="card-img-top"
+                                    src="images/digitalprofile.png"
+                                    alt="Card image cap">
+                                <div class="card-body position-absolute">
+                                    <h5 class="card-title text-white">Digital Profile</h5>
+                                    <p class="card-text badge bg-light text-dark">Mobile App Development</p>
+                                </div>
+                            </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card position-relative card-position-relative">
+                            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                            <a href="#">
+                                <img class="card-img-top"
+                                    src="images/digitalpalika.png"
+                                    alt="Card image cap">
+                                <div class="card-body position-absolute">
+                                    <h5 class="card-title text-white">Digital Palika</h5>
+                                    <p class="card-text badge bg-light text-dark">Mobile App Development</p>
+                                </div>
+                            </a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card position-relative card-position-relative">
+                            <button type="button" class="btn p-0" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                            <a href="#">
+                                <img class="card-img-top"
+                                    src="https://img.shgstatic.com/clutch-static-prod/image/resize/500x350/s3fs-public/portfolio/4035231858512818d8f1420cd7380986_72236808166be30099c469.png"
+                                    alt="Card image cap">
+                                <div class="card-body position-absolute">
+                                    <h5 class="card-title text-white">Sagun Ply</h5>
+                                    <p class="card-text badge bg-light text-dark">Mobile App Development</p>
+                                </div>
+                            </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+  <!-- Modal -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header modal-header-updated mb-0 pb-0 mt-2">
+                <h1 class="modal-title fs-1 text-dark" id="exampleModalLabel">Mero Aahar</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body mt-0">
+                <div class="services-provided-div ps-2 pt-2">
+                    <p class="services-provided-text>">Services Provided on this Project</p>
+                    <p class="mobile-app-dev-text text-start px-3 py-3>">Mobile App Development</p>
+                </div>
+                <div class="second-title mt-3 ms-1">
+                    <h5>Mero Aahar</h5>
+                    <p class="cvs-is-a-text">Mero Aahar is your ultimate guide to achieving your health goals. Whether you're looking to lose weight, gain muscle, or simply eat healthier, this app offers personalized meal plans tailored to your specific needs. With a vast database of foods, nutritional information, and customizable diet options, you can track your daily intake, set dietary goals, and monitor your progress with ease. The app also features grocery lists, recipe ideas, and reminders to keep you on track. Empower your wellness journey with Diet Planner Pro, where balanced eating meets convenience.</p>
+                </div>
+                <div class="centered-image d-flex justify-content-center mt-5 mb-5">
+                    <img src="images/meroaahar.png" class="cvc-pharmacy-img">
+                </div>
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header modal-header-updated mb-0 pb-0 mt-2">
+                <h1 class="modal-title fs-1 text-dark" id="exampleModalLabel">Online Shop Nepal</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body mt-0">
+                <div class="services-provided-div ps-2 pt-2">
+                    <p class="services-provided-text>">Services Provided on this Project</p>
+                    <p class="mobile-app-dev-text text-start px-3 py-3>">Mobile App Development</p>
+                </div>
+                <div class="second-title mt-3 ms-1">
+                    <h5>Online Shop Nepal</h5>
+                    <p class="cvs-is-a-text">Online Shop Nepal is your go-to platform for shopping and savings. As a leading e-commerce site in Nepal, we offer a wide range of products across various categories, ensuring you find everything you need in one place. But that’s not all—we also provide exclusive discount cards that give you access to unbeatable deals and offers at partnered merchants and branches nationwide. Our discount card program is designed to help you save more while enjoying the best shopping experience. Whether you're looking for the latest fashion, electronics, or daily essentials, Online Shop Nepal makes it easy to shop smart and save big.</p>
+                </div>
+                <div class="centered-image d-flex justify-content-center mt-5 mb-5">
+                    <img src="images/onlineshop.png" class="cvc-pharmacy-img">
+                </div>
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header modal-header-updated mb-0 pb-0 mt-2">
+                <h1 class="modal-title fs-1 text-dark" id="exampleModalLabel">Ghar Beti</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body mt-0">
+                <div class="services-provided-div ps-2 pt-2">
+                    <p class="services-provided-text>">Services Provided on this Project</p>
+                    <p class="mobile-app-dev-text text-start px-3 py-3>">Mobile App Development</p>
+                </div>
+                <div class="second-title mt-3 ms-1">
+                    <h5>Ghar Beti</h5>
+                    <p class="cvs-is-a-text">Gharbeti is your trusted platform for all things real estate. Whether you're looking to buy, sell, or rent a house, Gharbeti makes the process simple and hassle-free. Our user-friendly system connects buyers, sellers, and renters, offering a wide range of properties to suit your needs. With advanced search features, detailed property listings, and secure transactions, Gharbeti ensures a seamless experience from start to finish. Whether you're finding your dream home, selling a property, or searching for a rental, Gharbeti is your one-stop solution for all real estate needs.</p>
+                </div>
+                <div class="centered-image d-flex justify-content-center mt-5 mb-5">
+                    <img src="images/ghar beti.png" class="cvc-pharmacy-img">
+                </div>
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header modal-header-updated mb-0 pb-0 mt-2">
+                <h1 class="modal-title fs-1 text-dark" id="exampleModalLabel">Himalayan Hills Foods</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body mt-0">
+                <div class="services-provided-div ps-2 pt-2">
+                    <p class="services-provided-text>">Services Provided on this Project</p>
+                    <p class="mobile-app-dev-text text-start px-3 py-3>">Mobile App Development</p>
+                </div>
+                <div class="second-title mt-3 ms-1">
+                    <h5>Himalayan Hills Foods</h5>
+                    <p class="cvs-is-a-text">Himalayan Hills Food is an e-commerce platform dedicated to bringing the rich flavors and natural goodness of the Himalayas to your doorstep. Specializing in organic, locally-sourced products, we offer a wide range of food items, including spices, herbs, teas, honey, and traditional snacks, all carefully curated from the pristine Himalayan region. Our commitment to quality ensures that you receive fresh, authentic products that capture the essence of Himalayan cuisine. Whether you're looking to explore new flavors or stock up on your favorite essentials, Himalayan Hills Food is your trusted source for healthy and delicious foods delivered right to you.</p>
+                </div>
+                <div class="centered-image d-flex justify-content-center mt-5 mb-5">
+                    <img src="images/himalayan.png" class="cvc-pharmacy-img">
+                </div>
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header modal-header-updated mb-0 pb-0 mt-2">
+                <h1 class="modal-title fs-1 text-dark" id="exampleModalLabel">POS System</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body mt-0">
+                <div class="services-provided-div ps-2 pt-2">
+                    <p class="services-provided-text>">Services Provided on this Project</p>
+                    <p class="mobile-app-dev-text text-start px-3 py-3>">Mobile App Development</p>
+                </div>
+                <div class="second-title mt-3 ms-1">
+                    <h5>POS System</h5>
+                    <p class="cvs-is-a-text">POS system is a specialized Point of Sale system tailored for municipal operations, streamlining the management of public services and transactions. Designed to meet the unique needs of local government offices, Municipal POS enables efficient processing of payments for taxes, utilities, permits, and other municipal services. With features like real-time reporting, secure payment gateways, and user-friendly interfaces, the system ensures transparency and accuracy in financial management. Whether handling everyday transactions or generating detailed reports for audits, Municipal POS simplifies operations, helping municipalities serve their communities better.</p>
+                </div>
+                <div class="centered-image d-flex justify-content-center mt-5 mb-5">
+                    <img src="images/pos system.png" class="cvc-pharmacy-img">
+                </div>
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header modal-header-updated mb-0 pb-0 mt-2">
+                <h1 class="modal-title fs-1 text-dark" id="exampleModalLabel">Digital Profile</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body mt-0">
+                <div class="services-provided-div ps-2 pt-2">
+                    <p class="services-provided-text>">Services Provided on this Project</p>
+                    <p class="mobile-app-dev-text text-start px-3 py-3>">Mobile App Development</p>
+                </div>
+                <div class="second-title mt-3 ms-1">
+                    <h5>Digital Profile</h5>
+                    <p class="cvs-is-a-text">Digital Profile  is an innovative platform designed to streamline the collection and management of personal and professional data. Ideal for organizations, educational institutions, and research projects, this system allows users to create comprehensive digital profiles through customizable surveys. With features like real-time data analysis, secure data storage, and easy-to-use interfaces, the Digital Profile Survey System simplifies the process of gathering detailed information on individuals or groups. Whether you're conducting market research, managing student profiles, or tracking employee data, this system ensures accuracy, efficiency, and valuable insights from your surveys.</p>
+                </div>
+                <div class="centered-image d-flex justify-content-center mt-5 mb-5">
+                    <img src="images/digitalprofile.png" class="cvc-pharmacy-img">
+                </div>
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header modal-header-updated mb-0 pb-0 mt-2">
+                <h1 class="modal-title fs-1 text-dark" id="exampleModalLabel">Digital Palika</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body mt-0">
+                <div class="services-provided-div ps-2 pt-2">
+                    <p class="services-provided-text>">Services Provided on this Project</p>
+                    <p class="mobile-app-dev-text text-start px-3 py-3>">Mobile App Development</p>
+                </div>
+                <div class="second-title mt-3 ms-1">
+                    <h5>Digital Palika</h5>
+                    <p class="cvs-is-a-text">Digital Palika is a comprehensive app tailored to streamline and enhance municipal management. Designed for local governments, this app centralizes all municipal operations, from managing public services and handling citizen requests to overseeing administrative tasks and tracking projects. With features like real-time updates, efficient workflow management, and secure data handling, Digital Palika ensures that municipal work is organized and accessible. Whether it's processing permits, collecting taxes, or managing community programs, Digital Palika transforms municipal operations into a seamless, efficient, and transparent process, making governance more effective and responsive. </p>
+                </div>
+                <div class="centered-image d-flex justify-content-center mt-5 mb-5">
+                    <img src="images/digitalpalika.png" class="cvc-pharmacy-img">
+                </div>
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header modal-header-updated mb-0 pb-0 mt-2">
+                <h1 class="modal-title fs-1 text-dark" id="exampleModalLabel">Sagun Ply</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body mt-0">
+                <div class="services-provided-div ps-2 pt-2">
+                    <p class="services-provided-text>">Services Provided on this Project</p>
+                    <p class="mobile-app-dev-text text-start px-3 py-3>">Mobile App Development</p>
+                </div>
+                <div class="second-title mt-3 ms-1">
+                    <h5>Sagun Ply</h5>
+                    <p class="cvs-is-a-text">Sagun Ply is a premier provider of high-quality plywood, catering to the needs of builders, architects, and homeowners alike. Renowned for our durability, strength, and superior craftsmanship, Sagun Ply offers a wide range of plywood products suitable for various applications, from furniture making to construction projects. Each sheet of plywood is meticulously manufactured using the finest materials, ensuring long-lasting performance and a flawless finish. Whether you're undertaking a home renovation or a large-scale commercial project, Sagun Ply is your trusted partner for reliable and top-grade plywood solutions.</p>
+                </div>
+                <div class="centered-image d-flex justify-content-center mt-5 mb-5">
+                    <img src="images/sagun-ply.png" class="cvc-pharmacy-img">
+                </div>
+            </div>
+            <div class="modal-footer">
+                
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    </body>
+</html>
